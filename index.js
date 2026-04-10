@@ -12,6 +12,8 @@ const {
 } = require('discord.js');
 
 // 🔑 VARIABLES (Railway)
+console.log("TOKEN =", process.env.TOKEN);
+console.log("CLIENT_ID =", process.env.CLIENT_ID);
 const TOKEN = process.env.TOKEN;
 const CLIENT_ID = process.env.CLIENT_ID;
 
